@@ -2,6 +2,8 @@ import math
 import numpy as np
 import scipy.stats as stats
 
+#Created by Nut-Stack
+
 e = np.exp(1)
 phi = ( 1 + math.sqrt(5) ) / 2
 '''
@@ -15,11 +17,12 @@ s = standard deviation (implied volitility)
 ln = natural log
 q = annual dividend yield
 '''
-S = 41.32
-t = 4/365
-K = 40
-r = 0.0007
-s = .3984
+S = 389.51
+t = 9/365
+K = 400
+#r = 0.0007
+r = 0.0016376
+s = .1508
 q = 0/100
 
 def d1(S,K,r,s,t):
